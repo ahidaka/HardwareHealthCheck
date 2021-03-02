@@ -1,15 +1,12 @@
-Part2_Diskdrive_Powerunit.md
-
-# PC ハードウェアの正常性検証（Part 1）　設置・運用・環境とメモリー
 # PC ハードウェアの正常性検証（Part 2）　ディスクドライブ・電源とまとめ
 
 ## テクニカル レベル : 中級
 
 ### はじめに
 
-このページは、PC ハードウェアの正常性検証（Part 1）の続きです。
+このページは、[PC ハードウェアの正常性検証（Part 1）](Part1_Environment_Memory.md)の続きです。
 次の4点の通常発生するPCハードウェアの不具合のうち、ハードディスクと電源ユニットの検証方法について示します。
-設置・運用・環境とメモリーの検証については、Part1 を参照してください。
+設置・運用・環境とメモリーの検証については、[Part1](Part1_Environment_Memory.md) を参照してください。
 
 1. 設置・運用・環境
 2. メモリー
@@ -42,7 +39,8 @@ https://crystalmark.info/ja/download/
 
 ### インストール
 
-入手した CrystalDiskInfo8_11_2.exe（数字はバージョンによって異なる）をクリック後、ユーザーアカウント制御を確認してインストールを開始します。最初はライセンスの確認画面です。
+入手した CrystalDiskInfo8_11_2.exe（数字はバージョンによって異なる）をクリック後、ユーザーアカウント制御を確認してインストールを開始します。
+最初はライセンスの確認画面です。
 
 ![例：USBケーブル](diskinfo-2.png)
 
@@ -97,13 +95,8 @@ Windowsの調子が悪いとき、Windowsの不具合を疑う前に、次のチ
 
 これらが正常であることをまず確認してから、次の様なソフト的な不具合を疑ってみます。
 
-- ファイルシステムのエラー（chkdskコマンドによる論理エラー確認と修復）
+- [ファイルシステムのエラー（chkdskコマンドによる論理エラー確認と修復）](https://docs.microsoft.com/ja-jp/windows-server/administration/windows-commands/chkdsk?WT.mc_id=WDIT-MVP-35878)
 
-https://docs.microsoft.com/ja-jp/windows-server/administration/windows-commands/chkdsk?WT.mc_id=WDIT-MVP-35878
+- [システムファイルのチェック（sfcコマンドによるシステムの整合性確認と修復）](https://docs.microsoft.com/ja-jp/windows-server/administration/windows-commands/sfc?WT.mc_id=WDIT-MVP-35878)
 
-- システムファイルのチェック（sfcコマンドによるシステムの整合性確認と修復）
-
-https://docs.microsoft.com/ja-jp/windows-server/administration/windows-commands/sfc?WT.mc_id=WDIT-MVP-35878
-
-Windows PCの不調には必ず何らかの理由があります。
-まずはハードウェアの正常性検証ツールを使用して、状態を確認してみることをお勧めします。
+Windows PCの不調には必ず何らかの理由があります。まずはハードウェアの正常性検証ツールを使用して、状態を確認してみることをお勧めします。
