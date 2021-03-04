@@ -1,6 +1,12 @@
-# PC ハードウェアの正常性検証（Part 2）　ディスクドライブ・電源とまとめ
+# PC ハードウェアの正常性検証（Part 2）　ディスクドライブ・電源とまとめ（下書き）
 
 ## テクニカル レベル : 中級
+
+## 完成版
+
+[PC ハードウェアの正常性検証（Part 2）ディスクドライブ・電源とまとめ](https://answers.microsoft.com/ja-jp/windows/forum/all/pc/cb9cd87c-2745-45c5-9e6a-bfd8f6567898)
+https://answers.microsoft.com/ja-jp/windows/forum/all/pc/cb9cd87c-2745-45c5-9e6a-bfd8f6567898
+
 
 ### はじめに
 
